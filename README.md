@@ -41,7 +41,7 @@ Expression:
 ```
 a*a = a^2 $ a@-10;10
 ```
-_Check are `a*a` and `a^2` the same, if a is a variable in range from -10 to 10_
+_Check are `a*a` and `a^2` are the same, if a is a variable in range from -10 to 10_
 
 Result:
 ```
@@ -71,7 +71,7 @@ Expression:
 a^2 + b^2 != c^2 $ a@1;10 b@1;10 c@1;10
 ```
 
-_Anti-Pythagorean triple, so it will return false, when such triple will be found._
+_Anti-Pythagorean triple, so it will return false when such triple is found._
 
 Result:
 ```
@@ -81,4 +81,4 @@ False (a=3; b=4; c=5)
 _One of such triple._
 
 ## Installation
-You can clone the repository and run "main.py", or use one of the files from the "Release" tab.
+Сlone the repository and run "main.py". No external modules are required.
